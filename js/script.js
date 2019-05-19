@@ -41,10 +41,7 @@ function typeWriter(){
 window.addEventListener('scroll', function(){
     const scrollable = hobbies.offsetTop - window.innerHeight;
     const scrolled = window.scrollY;
-    // console.log(scrollable);
-    console.log(scrolled);
     if(scrollable*2-100 < scrolled){
-        console.log(scrollable);
         img.classList.add('animation');
     }
 });
