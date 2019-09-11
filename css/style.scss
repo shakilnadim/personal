@@ -324,7 +324,7 @@ header{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         li{
-            height: 480px;
+            min-height: 480px;
             overflow: hidden;
             img{
                 width: 100%;
